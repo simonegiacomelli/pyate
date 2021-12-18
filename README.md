@@ -162,7 +162,7 @@ the following after installing `pyate`.
 ```python3
 import pandas as pd
 from distutils.sysconfig import get_python_lib
-df = pd.read_csv(get_python_lib() + "/pyate/default_general_domain.en.zip")["SECTION_TEXT"]
+df = pd.read_csv(get_python_lib() + "/pyate/default_general_domain.en.csv")["SECTION_TEXT"]
 print(df.head())
 """ (Output)
 0    '''Anarchism''' is a political philosophy that...
